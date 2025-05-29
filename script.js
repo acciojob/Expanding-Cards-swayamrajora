@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const panels = document.querySelectorAll('.panel');
 
 panels.forEach(panel => {
@@ -9,7 +8,5 @@ panels.forEach(panel => {
 });
 
 function removeActiveClasses() {
-  panels.forEach(panel => {
-    panel.classList.remove('active');
-  });
+  panels.forEach(panel => panel.classList.remove('active'));
 }
